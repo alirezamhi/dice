@@ -1,0 +1,85 @@
+@font-face {
+    font-family: pixle;
+    src: url(./font/VT323-Regular.ttf);
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    font-family: pixle;
+    
+}
+.player1{
+    /* width: 40%; */
+    background-color: blue;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.dice{
+    /* width: 60%; */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.player2{
+    /* width: 40%; */
+    background-color: blue;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.player{
+    font-size: 50px;
+}
+.dice-buttom{
+    background-color: blue;
+    border: none;
+    padding: 10px;
+    color: white;
+    font-family: pixle;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.images{
+    display: flex;
+}
+.score-a , .score-b{
+    font-size: 50px;
+}
+.winner-a , .winner-b{
+    font-size: 30px;
+    color: red;
+
+}
+.reset-buttom{
+    background-color: red;
+    border: none;
+    padding: 10px;
+    color: white;
+    font-family: pixle;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
